@@ -1,5 +1,5 @@
 <h2 align="center">
-joKenPô
+JoKenPô
 </h2>
 <br>
 <br>
