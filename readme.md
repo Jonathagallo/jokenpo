@@ -4,7 +4,7 @@ joKenPô
 <br>
 <br>
 <br>
-## 💻 Projeto
+## - Projeto 💻
 
 <p>O Jogo JokenPo foi inspirada no seriado de televisão <i>The Big Bang Theory</i> e tem uma interface intuitiva e para o usuário se divertir!.</p> <br>
 
@@ -26,7 +26,7 @@ As regras de Pedra-papel-tesoura-lagarto-Spock são:
 -Spock vaporiza pedra
 -Pedra quebra tesoura
  </p>
- ## - Tecnologias utilizadas
+ ## Tecnologias utilizadas
 
 - Html
 - CSS
