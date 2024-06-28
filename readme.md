@@ -7,7 +7,7 @@ joKenPô
 
 ## - Projeto 💻
 
-<p>O Jogo JokenPo foi inspirada no seriado de televisão <i>The Big Bang Theory</i> e tem uma interface intuitiva e para o usuário se divertir!.</p> <br>
+<p>O Jogo JokenPo foi inspirada no seriado de televisão <i>The Big Bang Theory</i> e tem uma interface intuitiva para o usuário se divertir!.</p> <br>
 
 ## - Como Jogar: 🎮 
 <p>- O usuário escolhe as opções: pedra, papel, tesoura, lagardo ou spock clicando no botão.
@@ -37,5 +37,6 @@ As regras de Pedra-papel-tesoura-lagarto-Spock são:<br>
 <br>
 <br>
 <br>
+
 ## - Interface
 <img src="./img.png">
