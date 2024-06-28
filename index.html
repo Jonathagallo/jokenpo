@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>JoKenPô</title>
+  </head>
+  <body>
+    
+    <main class="container">
+        
+      <section class="cards">
+        <h1>JoKenPô</h1>
+        <div class="options">
+          <button id="rock" onclick="playHuman('rock')">&#x1F44A;</button>
+          <button id="paper" onclick="playHuman('paper')">&#x1F590;</button>
+          <button id="scissors" onclick="playHuman('scissors')">&#x270C;</button>
+          <button id="lizard" onclick="playHuman('lizard')">&#x1F98E;</button>
+          <button id="spock" onclick="playHuman('spock')">&#x1F596;</button>
+        </div>
+        <p class="result"></p>
+        <p>Sua Pontuação: <span class="point-human">0</span></p>
+        <p>Pontuação do Ollag: <span class="point-machine">0</span></p>
+      </section>
+      <section class="plays">
+        <section class="cards">
+          <h2>Você</h2>
+          <p class="plays-human">&#x2753;</p>
+        </section>
+
+        <section class="cards">
+          <h2>Ollag</h2>
+          <p class="plays-machine">&#x2753;</p>
+        </section>
+      </section>
+            
+    </main>
+    
+  </body>
+  <script src="./script.js"></script>
+</html>

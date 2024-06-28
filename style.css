@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{    
+    background: linear-gradient(90deg, rgba(1,114,175,1) 30%, rgba(116,254,189,1) 100%);
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.cards{
+    background: #fff;
+    min-width: 300px;
+    border-radius: 10px;
+}
+h1{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin:20px 0;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+button{
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.4s ease-in-out;
+}
+button:hover{
+    opacity: 0.7;
+}
+#scissors {
+    background: #7dbeed;
+}
+#rock {
+    background-color: #a200ff;
+}
+#paper {
+    background: #9ee01a;
+}
+#lizard{
+    background: #344d02;
+}
+#spock {
+    background: #215981;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.point-human{
+    color: rgb(255, 0, 0);
+}
+.point-machine{
+    color: rgb(0, 0, 255)
+}
+
+.plays{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;    
+
+}
+h2{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px auto;
+}
+.plays-human, .plays-machine{
+    font-size: 170px;
+    
+}
+.info{
+    position: absolute;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: -760px;   
+
+}
+
+@media (max-width: 650px){
+    .plays{
+        display: none;
+    }
+}
